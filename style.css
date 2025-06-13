@@ -1,0 +1,20 @@
+
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-7deg); }
+  50% { transform: rotate(7deg); }
+}
+.wiggle {
+  animation: wiggle 0.5s infinite;
+}
+
+
+.scrolling-wrapper .card {
+      display: inline-block;
+    }
+
+.card-img-top{
+     height: 350px;
+    object-fit: cover;
+}
+
